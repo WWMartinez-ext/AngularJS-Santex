@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'appAngular-SantexEjer'`, () => {
+  it(`should have as title 'appAngular-SantexEjerAngular'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('appAngular-SantexEjer');
+    expect(app.title).toEqual('appAngular-SantexEjerAngular');
   });
 
   it('should render title', () => {
